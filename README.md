@@ -1,16 +1,24 @@
 # recipe
 
-A new Flutter project.
+1. Экран авторизации:
+- Пользователь вводит email
+- Проверка на корректность email (наличие @ и точки и английского языка)
+- При успешной проверке переход на главный экран
 
-## Getting Started
+2. Главный экран:
+- Отображение списка рецептов
+- Каждая карточка показывает: название, изображение (если есть), краткое описание
+- Кнопка добавления нового рецепта
+- Возможность удаления рецепта свайпом влево
+- Тап по карточке открывает экран редактирования
 
-This project is a starting point for a Flutter application.
+3. Экран добавления/редактирования:
+- Форма с полями: название, описание, кнопка загрузки фото
+- В режиме редактирования - поля предзаполнены текущими данными
+- Кнопки "Сохранить" и "Отмена"
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+4. Дополнительные функции:
+- Темная/светлая тема (переключается в шапке)
+- Анимации переходов между экранами
+- Подтверждение удаления с возможностью отмены
+- Валидация форм
